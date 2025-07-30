@@ -2,7 +2,7 @@
 
 **Course Duration:** 5 Months  
 **Mode:** Live (Google Meet)  
-**Fee:** ₹15,999 → **₹7,999 (After Discount)**  
+**Fee:** ₹15,999 → **₹9,999 (After Discount)**  
 **Level:** Beginner to Advanced  
 **Includes:** Hands-on Projects, Certification, Resume Building & Job Prep
 

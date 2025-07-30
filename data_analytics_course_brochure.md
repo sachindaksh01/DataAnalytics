@@ -198,17 +198,29 @@ This comprehensive Data Analytics course is designed to equip students with the 
 
 ---
 
-## 🤖 Module 8: Gen AI for Data Analytics *(NEW)*  
-**Duration:** 1 Week  
-**Tools:** ChatGPT, Gemini, Notebooks with AI Extensions
+## 🤖 Module 8: Gen AI + Machine Learning (Advanced Optional)  
+**Duration:** 3 Weeks  
+**Tools:** ChatGPT, Gemini, Notebooks with AI Extensions, scikit-learn
 
-### Topics:
+### Gen AI for Analytics:
 - Introduction to Gen AI in Analytics
 - Prompt Engineering for Data Queries
 - Automating EDA with AI
 - Generating Insights & Report Summaries
 - Cleaning & Transforming Data using AI
 - Using AI Copilots in Excel, Power BI, Python
+
+### Introduction to Machine Learning:
+- What is AI, ML, DL
+- Types of ML: Supervised vs Unsupervised
+- Train-Test Split
+- Model Evaluation: Accuracy, Precision, Recall
+
+### Algorithms:
+- Linear Regression
+- Logistic Regression
+- K-Means Clustering
+- Decision Tree Classifier
 
 ---
 

@@ -148,13 +148,6 @@ This comprehensive Data Analytics course is designed to equip students with the 
 - COUNT, SUM, AVG, MIN, MAX
 - GROUP BY, HAVING
 
-### Advanced SQL:
-- Subqueries (Single & Correlated)
-- CASE Statements
-- Common Table Expressions (CTE)
-- Window Functions: `ROW_NUMBER()`, `RANK()`, `LAG()`, `LEAD()`
-- UNION, INTERSECT, EXCEPT
-- Indexes and Optimization Tips
 
 ---
 

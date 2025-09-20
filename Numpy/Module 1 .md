@@ -218,4 +218,3 @@ print("NumPy array size in bytes:", arr.nbytes)
 
 ---
 
-Do you want me to also add **real-world data analytics examples** (like analyzing student marks, sales data, etc.) in this lecture so that students feel it’s directly connected to Data Analytics?

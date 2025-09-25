@@ -133,9 +133,3 @@ Markdown support karta hai Unicode emojis:
 ```
 
 ---
-
-✅ In sabhi ka use karke aap Jupyter Notebook me ekdum **professional notes/documentation** bana sakte ho.
-
----
-
-Kya aap chahte ho ki mai ek **ready-made Jupyter Notebook example (.ipynb)** bana kar de du jisme yeh sab formatting already applied ho, jise aap seedha open karke dekh sako?

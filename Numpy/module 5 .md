@@ -332,6 +332,10 @@ Day of Min Sales: 0
 📌 Argmax = best performing day index, Argmin = worst day index.
 
 ---
+### (H) `np.cumsum()` – Cumulative Sum   – Index of Max/Min
+
+
+
 
 ## 4. Axis-based Operations
 

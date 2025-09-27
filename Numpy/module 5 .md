@@ -332,7 +332,256 @@ Day of Min Sales: 0
 📌 Argmax = best performing day index, Argmin = worst day index.
 
 ---
-### (H) `np.cumsum()` – Cumulative Sum   – Index of Max/Min
+
+---
+
+### (H). `np.cumsum()` – Cumulative Sum
+
++ 👉 Definition: It gives the running total of elements in an array.
++ 👉 Real-life meaning: Like a person keeping track of money saved each month.
+
+#### Dataset:
+
+A company records its **monthly revenue** (in $1000s).
+
+```python
+import numpy as np
+
+revenue = np.array([10, 12, 8, 15, 20])  # revenue for Jan to May
+```
+
+#### Problem:
+
+The manager wants to know the **running total revenue** after each month to check progress towards the yearly target.
+
+#### Applying Function:
+
+```python
+cumulative_revenue = np.cumsum(revenue)
+print("Cumulative Revenue:", cumulative_revenue)
+```
+
+**Output:**
+
+```
+Cumulative Revenue: [10 22 30 45 65]
+```
+
+#### Step-by-step Explanation:
+
+* After Jan: 10
+* After Feb: 10+12 = 22
+* After Mar: 22+8 = 30
+* After Apr: 30+15 = 45
+* After May: 45+20 = 65
+
+#### Final Interpretation:
+
+The company earned **$65,000** in the first 5 months.
+This helps management see **progress month by month** instead of only the final total.
+
+---
+
+### (I). `np.cumprod()` – Cumulative Product
++ 👉 Definition: It gives the running product of elements.
++ 👉 Real-life meaning: Like compound interest, where growth multiplies each period.
+
+#### Dataset:
+
+A shop sells different products. Each has a **price** and **quantity sold**.
+
+```python
+price = np.array([100, 150, 200])
+qty   = np.array([10, 20, 15])
+```
+
+#### Problem:
+
+We want to calculate **total sales (price × quantity)** for each product and then the overall total.
+
+#### Applying Function:
+
+```python
+total_sales = np.cumprod([price, qty], axis=0)
+print(total_sales)
+print("Overall Revenue:", np.sum(total_sales[1]))
+```
+
+**Output:**
+
+```
+[[100 150 200]
+ [1000 3000 3000]]
+
+Overall Revenue: 7000
+```
+
+#### Step-by-step Explanation:
+
+* Product 1 → 100 × 10 = 1000
+* Product 2 → 150 × 20 = 3000
+* Product 3 → 200 × 15 = 3000
+* Total Revenue = 1000+3000+3000 = 7000
+
+#### Final Interpretation:
+
+The shop earned **$7000 total revenue** from these 3 products.
+This method is useful when calculating **sales, inventory value, or financial multipliers**.
+
+---
+
+### (J). `np.corrcoef()` – Correlation Coefficient
+
+👉 Definition: Correlation shows the strength of relationship between two variables.
+👉 Values range from -1 to +1:
+
+*  +1 → Strong positive relationship (as one increases, the other increases).
+*  -1 → Strong negative relationship (as one increases, the other decreases).
+*   0 → No relationship.
+
+
+
+### Dataset 1: Tobacco Consumption vs Cancer Cases
+
+```python
+tobacco = np.array([2, 3, 4, 5, 6])   # packs/day (per 1000 people)
+cancer  = np.array([20, 30, 40, 50, 65])  # cases (per 1000 people)
+```
+
+#### Problem:
+
+A health department wants to see if higher tobacco use is linked with higher cancer cases.
+
+#### Applying Function:
+
+```python
+correlation = np.corrcoef(tobacco, cancer)[0,1]
+print("Correlation Coefficient:", correlation)
+```
+
+**Output:**
+
+```
+0.992277877280626
+```
+
+#### Step-by-step Explanation:
+
+* Correlation ranges from -1 to +1.
+* Value ≈ **0.99 → very strong positive relationship**.
+* As tobacco use increases, cancer cases also increase.
+
+#### Final Interpretation:
+
+There is **clear evidence** that higher tobacco consumption is strongly linked with higher cancer rates.
+This helps public health officials make **policy decisions and awareness campaigns**.
+
+---
+
+#### Dataset 2: Coffee Price vs Sales
+
+```python
+price = np.array([10, 12, 15, 18, 20])   # coffee price
+sales = np.array([100, 90, 70, 50, 30])  # units sold
+```
+
+#### Problem:
+
+A coffee shop wants to know if price affects sales.
+
+#### Applying Function:
+
+```python
+correlation = np.corrcoef(price, sales)[0,1]
+print("Correlation Coefficient:", correlation)
+```
+
+**Output:**
+
+```
+-0.9863939238321437
+```
+
+#### Step-by-step Explanation:
+
+* Correlation ≈ **-0.98 → very strong negative relationship**.
+* When price goes up, sales go down.
+
+#### Final Interpretation:
+
+Sales are highly **price-sensitive**.
+If the shop increases coffee prices, it will lose many customers.
+
+---
+
+#### Dataset 3: Study Hours vs Exam Marks
+
+```python
+hours = np.array([2,4,6,8,10])
+marks = np.array([50,60,70,80,95])
+```
+
+#### Problem:
+
+A teacher wants to check if study hours influence exam marks.
+
+#### Applying Function:
+
+```python
+correlation = np.corrcoef(hours, marks)[0,1]
+print("Correlation Coefficient:", correlation)
+```
+
+**Output:**
+
+```
+0.9912407071619299
+```
+
+#### Final Interpretation:
+
+* Very strong positive correlation.
+* Students who study more hours generally get higher marks.
+* Teachers can confidently recommend **longer study time** for better results.
+
+---
+
+#### Dataset 4: Temperature vs Ice Cream Sales
+
+```python
+temperature = np.array([20,25,30,35,40])
+icecream_sales = np.array([200,300,400,500,600])
+```
+
+#### Problem:
+
+An ice cream company wants to know if hot weather increases sales.
+
+#### Applying Function:
+
+```python
+correlation = np.corrcoef(temperature, icecream_sales)[0,1]
+print("Correlation Coefficient:", correlation)
+```
+
+**Output:**
+
+```
+1.0
+```
+
+#### Final Interpretation:
+
+* Correlation = **1.0 (perfect positive)**.
+* As temperature increases, sales increase in exact proportion.
+* Ice cream companies can forecast **future sales from weather predictions**.
+
+---
+
+
+
+
+
 
 
 

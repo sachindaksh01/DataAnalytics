@@ -80,7 +80,7 @@ print("Square Root of Scores:", np.sqrt(scores))
 
 ### (B) `np.exp()` – Exponential
 
-**Scenario:** A population scientist models growth using exponential equations.
+📌 **Scenario:** Population growth prediction. Suppose population growth follows an **exponential model**.
 
 ```python
 years = np.array([1,2,3,4])
@@ -93,13 +93,16 @@ print("Exponential Growth Factor:", np.exp(years))
 [ 2.718  7.389 20.086 54.598]
 ```
 
-📌 Exponential growth is used in population models, finance, and machine learning activation functions.
+📝 **Explanation:**
+
+* Shows how growth multiplies exponentially (not linear).
+* Used in **finance, ML activation functions, and population growth studies**.
 
 ---
 
 ### (C) `np.log()` – Natural Log (base e)
 
-**Scenario:** Income distribution is highly skewed. Analysts use log transformation to make it more balanced.
+📌 **Scenario:** In finance, log transformation is used to stabilize **income distribution** (since incomes are highly skewed).
 
 ```python
 income = np.array([2000, 5000, 20000, 100000])
@@ -112,13 +115,16 @@ print("Log Transformation:", np.log(income))
 [ 7.60090246  8.51719319  9.90348755 11.51292546]
 ```
 
-📌 Log transformation reduces the impact of very large values.
+📝 **Explanation:**
+
+* Without log → huge difference between 2000 vs 100000.
+* With log → distribution becomes closer, easier to analyze.
 
 ---
 
 ### (D) `np.log10()` – Log base 10
 
-**Scenario:** Earthquake magnitudes are measured on the Richter scale using log10.
+📌 **Scenario:** Scientists use log10 scale for **earthquake magnitudes** (Richter scale).
 
 ```python
 magnitudes = np.array([10, 100, 1000, 10000])
@@ -131,7 +137,11 @@ print("Richter scale (log10):", np.log10(magnitudes))
 [1. 2. 3. 4.]
 ```
 
-📌 Log base 10 compresses large scientific values into small scales.
+📝 **Explanation:**
+
+* Earthquakes scale in powers of 10.
+* log10 helps represent very large values in smaller scales.
+
 
 ---
 
@@ -150,7 +160,10 @@ print("Absolute Values:", np.abs(profits))
 [500 200 100 300]
 ```
 
-📌 Absolute values help measure magnitude regardless of positive (profit) or negative (loss).
+📝 **Explanation:**
+
+* Negative = loss, Positive = profit.
+* Absolute values help compare **magnitude of change** ignoring direction.
 
 ---
 
@@ -215,7 +228,9 @@ print("Average Marks:", np.mean(marks))
 76.0
 ```
 
-📌 The class average score is 76.
+📝 **Explanation:**
+* 📌 The class average score is 76.
+* 📌  Mean = overall class performance.
 
 ---
 
@@ -320,7 +335,8 @@ Day of Min Sales: 0
 
 ## 4. Axis-based Operations
 
-👉 Many aggregation functions can be applied **row-wise (axis=1)** or **column-wise (axis=0)**.
++ 👉 Apply aggregation along rows or columns.
++ 👉 Many aggregation functions can be applied **row-wise (axis=1)** or **column-wise (axis=0)**.
 
 ---
 

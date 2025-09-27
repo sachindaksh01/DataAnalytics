@@ -208,7 +208,7 @@ Converted to int: [1 2 3] dtype: int64
 
 ---
 
-# 🔑 Summary (Hinglish)
+# 🔑 Summary 
 
 * `reshape()` → change array shape (rows × columns).
 * `ravel(), flatten()` → convert multi-d arrays into 1D.

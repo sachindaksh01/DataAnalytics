@@ -9,8 +9,8 @@ NumPy is not only about storing data in arrays. Its real power lies in performin
 
 ## 1. Arithmetic Operations
 
-👉 Arithmetic operations in NumPy are **element-wise**.
-👉 This means the operation is applied to each element of the arrays.
++ 👉 Arithmetic operations in NumPy are **element-wise**.
++ 👉 This means the operation is applied to each element of the arrays.
 
 ---
 

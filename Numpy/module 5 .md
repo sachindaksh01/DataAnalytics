@@ -1,6 +1,3 @@
-Got it ✅
-I’ll now rewrite **Module 5: Mathematical and Statistical Operations** in **clear, simple English only** (no Hinglish).
-Every function will be explained in-depth with **scenario-based real-life examples**, code, and outputs.
 
 ---
 
@@ -626,7 +623,3 @@ Student-wise average (axis=1): [80.         73.33333333 95.        ]
 * **Axis-based operations** allow row-wise and column-wise analysis, very useful in structured datasets.
 
 👉 These mathematical and statistical tools are the **foundation of data analytics**. They help analysts clean, transform, summarize, and interpret datasets efficiently.
-
----
-
-Would you like me to now prepare a **20-question practice set with real-world scenarios** (like I did for Module 4) so your students can apply these mathematical and statistical functions directly?

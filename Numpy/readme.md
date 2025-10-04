@@ -101,22 +101,6 @@
 
 ---
 
-## 📍 **Module 11: Real-World Applications of NumPy**
-
-* Handling tabular data (integration with Pandas)
-* Image data as arrays (optional)
-* Numerical simulations
-* Data normalization and scaling
-
----
-
-## 📍 **Module 12: Best Practices & Performance**
-
-* Memory usage and optimization
-* Vectorization vs loops
-* Use of `numexpr` and `numbas` (advanced)
-
----
 
 ## 🎯 Final Project / Assignment Ideas:
 

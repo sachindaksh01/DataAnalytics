@@ -94,24 +94,30 @@ This comprehensive Data Analytics course is designed to equip students with the 
 **Duration:** 2 Weeks
 
 ### NumPy:
-- Introduction & Array Creation
-- Indexing, Slicing, Shape Manipulation
-- Functions & Math Operations
-- Aggregation: `sum`, `mean`, `std`, `min`, `max`
-- Search, Sort, Filter
-- Add/Remove Elements, Split/Join Arrays
-- Statistical Functions: `percentile`, `median`, etc.
+- Module 1: Introduction to NumPy
+- Module 2: NumPy Arrays
+- Module 3: Indexing and Slicing
+- Module 4: Array Manipulation
+- Module 5: Mathematical and Statistical Operations
+- Module 6: Working with Random Data
+- Module 7: Advanced Array Operations
+- Module 8: Merging and Splitting Arrays
+- Module 9: Linear Algebra with NumPy
+- Module 10: File I/O with NumPy
 
+  
 ### Pandas:
-- Series and DataFrame Creation
-- Reading Files (`read_csv`, `read_excel`)
-- Inspecting Data: `.head()`, `.info()`, `.describe()`
-- Handling Missing Values
-- Filtering, Sorting, Renaming Columns
-- Apply Functions, Lambda
-- GroupBy Aggregation
-- Merge, Join, Concatenate
-- Pivot, Melt, Compare, Duplicates
+- Module 1: Getting Started with Pandas
+- Module 2: Data Selection & Filtering
+- Module 3: Data Cleaning and Preprocessing
+- Module 4: Data Aggregation & Grouping
+- Module 5: Merging, Joining, and Concatenation
+- Module 6: Time Series Analysis
+- Module 7: Exporting Data
+- Module 8: Advanced Pandas Topics
+- Module 9: Real-World Projects & Case Studies
+
+
 
 ---
 

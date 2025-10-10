@@ -130,7 +130,7 @@ Determinant: 5.000000000000001
 
 ---
 
-## 6. Eigenvalues and Eigenvectors – `np.linalg.eig()`
+## 5. Eigenvalues and Eigenvectors – `np.linalg.eig()`
 
 👉 **Definition:**
 
@@ -166,14 +166,6 @@ Eigenvectors:
 
 ---
 
-# 🔑 Summary
-
-* **Dot product (`dot`)** → Weighted sums (e.g., final score, similarity).
-* **Matrix multiplication (`matmul`)** → Transform datasets, sales calculations, ML models.
-* **Transpose (`.T`)** → Row ↔ Column switch, useful in reshaping data.
-* **Inverse (`inv`)** → Solve equations, regression models.
-* **Determinant (`det`)** → Matrix stability, check if inverse exists.
-* **Eigenvalues & Eigenvectors (`eig`)** → Explain variance, used in PCA, ML feature reduction.
 
 👉 Linear Algebra with NumPy is the **foundation for Data Analytics, Machine Learning, and AI models**.
 

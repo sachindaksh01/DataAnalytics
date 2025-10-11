@@ -1,5 +1,3 @@
-hamm
-In **data analytics and ML**, working with **files** is essential because we often need to **read datasets from files (CSV, TXT)** and **save processed results back** for future use. NumPy provides powerful functions to handle this efficiently.
 
 ---
 

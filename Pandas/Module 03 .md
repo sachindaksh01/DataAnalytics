@@ -38,7 +38,8 @@ import pandas as pd
 data = {
     'Name': ['Amit', 'Priya', 'Ravi', 'Simran', 'John'],
     'Age': [21, None, 20, 23, None],
-    'Marks': [85, 92, None, 88, 90]
+    'Score': [90, 97, None, 93, 95],
+    'City': ['Kolkata ', 'kolkata', ' Mumbai', 'delhi', 'mumbai']
 }
 
 df = pd.DataFrame(data)
@@ -115,7 +116,7 @@ df.fillna(0)
 #### Example 1: Fill with a constant value
 
 ```python
-df['Age'].fillna(18, inplace=True)
+df['Age'].fillna(18)
 ```
 
 → Replaces missing ages with 18.
@@ -125,7 +126,7 @@ df['Age'].fillna(18, inplace=True)
 #### Example 2: Fill with column mean or median
 
 ```python
-df['Marks'].fillna(df['Marks'].mean(), inplace=True)
+df['Marks'].fillna(df['Marks'].mean())
 ```
 
 → Replaces missing marks with the average mark.
@@ -214,7 +215,13 @@ df['Marks'] = df['Marks'].apply(lambda x: x + 5)
 Example:
 
 ```python
+
+
+# Clean and map properly
+df['City'] = df['City'].str.strip().str.title()  # clean text
 df['City'] = df['City'].map({'Delhi': 'DL', 'Mumbai': 'MB', 'Kolkata': 'KK'})
+
+
 ```
 
 → Converts full names into short codes.

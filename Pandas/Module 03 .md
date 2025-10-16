@@ -1,6 +1,6 @@
 ---
 
-# 🧩 **Module 3: Data Cleaning & Preprocessing (Beginner Level)**
+# 🧩 **Module 3: Data Cleaning & Preprocessing **
 
 ---
 

@@ -137,23 +137,11 @@
 
 ---
 
-### ✅ **Module 7: Data Visualization (with Pandas)**
 
-#### 🔸 7.1 Plotting Basics
 
-* `df.plot()`, `df['col'].plot()`
-* Line, bar, histogram, pie, box plots
+### ✅ **Module 7: Exporting Data**
 
-#### 🔸 7.2 Integration with Matplotlib/Seaborn
-
-* `import matplotlib.pyplot as plt`
-* `import seaborn as sns`
-
----
-
-### ✅ **Module 8: Exporting Data**
-
-#### 🔸 8.1 Exporting to:
+#### 🔸 7.1 Exporting to:
 
 * `.csv`: `df.to_csv()`
 * `.excel`: `df.to_excel()`
@@ -162,19 +150,19 @@
 
 ---
 
-### ✅ **Module 9: Advanced Pandas Topics**
+### ✅ **Module 8: Advanced Pandas Topics**
 
-#### 🔸 9.1 MultiIndex
+#### 🔸 8.1 MultiIndex
 
 * Creating MultiIndex
 * Indexing and slicing with multiple levels
 
-#### 🔸 9.2 Categoricals
+#### 🔸 8.2 Categoricals
 
 * Converting to `category` dtype
 * Memory optimization
 
-#### 🔸 9.3 Performance Tuning
+#### 🔸 8.3 Performance Tuning
 
 * Vectorization
 * Avoiding for-loops
@@ -182,16 +170,7 @@
 
 ---
 
-### ✅ **Module 10: Real-World Projects & Case Studies**
 
-* Sales data analysis
-* Customer segmentation
-* Time series forecasting (basic)
-* COVID data analytics
-* HR/Employee analytics
-* E-commerce order analytics
-
----
 
 ## 🧠 **Essential Pandas Methods Every Analyst Should Know**
 

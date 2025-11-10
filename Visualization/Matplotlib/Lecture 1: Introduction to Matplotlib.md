@@ -16,11 +16,11 @@ It’s one of the most powerful and widely used visualization tools in Python.
 
 ### ✨ **Why We Use Matplotlib**
 
-✅ Easy to use and beginner-friendly
-✅ Works well with **NumPy** and **Pandas**
-✅ Supports 2D and 3D plotting
-✅ Fully customizable — you can change color, size, labels, etc.
-✅ Used in **Data Analytics, Machine Learning, and Reports**
++ ✅ Easy to use and beginner-friendly
++ ✅ Works well with **NumPy** and **Pandas**
++ ✅ Supports 2D and 3D plotting
++ ✅ Fully customizable — you can change color, size, labels, etc.
++ ✅ Used in **Data Analytics, Machine Learning, and Reports**
 
 ---
 
